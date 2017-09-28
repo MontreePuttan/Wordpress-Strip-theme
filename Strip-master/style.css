@@ -1,0 +1,96 @@
+/*
+Theme name: Strip
+Author: Jirayu Yingthawornsuk
+Author URI: https://jirayu.in.th
+Text Domain: strip
+*/
+
+@media (min-width: 1200px) {
+	/* lock bootstrap max-width */
+	.container {
+		width: 46rem;
+		max-width: 100%;
+	}
+}
+
+a:link, a:visited {
+	color: rgba(0,0,0,.5);
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	margin:15px 0px;
+}
+
+blockquote {
+	color: #777;
+	font-style: italic;
+	padding: 0px 15px;
+}
+
+a:hover {
+	color: rgba(0,0,0,.7);
+	text-decoration: none;
+}
+
+.main-navigator {
+	margin-bottom: 35px;
+	box-shadow: 0 2px 2px -2px rgba(0,0,0,.15);
+}
+
+.main-navigator .container {
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+@media (max-width: 576px) { 
+	.main-navigator {
+		padding:0px;
+	}
+
+	.main-navigator .container {
+		margin:0px;
+	}
+	
+	.navbar-brand {
+		padding-left:15px;
+	}
+
+	.main-navigator .navbar-nav {
+		text-align:center;
+	}
+}
+
+.post-container {
+	margin-bottom:35px;
+	box-shadow: 0 2px 2px -2px rgba(0,0,0,.15);
+	padding-bottom:35px;
+}
+
+.content {
+	font-family: Georgia,Cambria,"Times New Roman",Times,serif;
+	letter-spacing: .01rem;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 18px;
+	line-height: 1.58;
+	letter-spacing: -.003em;
+	color: rgba(0,0,0,0.7);	
+}
+
+.post-tags a {
+	display:inline-block;
+	padding: 6px 12px;
+	border-radius:3px;
+	background: rgba(0,0,0,.05);
+	margin-bottom:5px;
+}
+
+.post-tags a:hover {
+	background: rgba(0,0,0,.1);
+}
+
+.nav-pagination {
+	margin-bottom:35px;
+}
